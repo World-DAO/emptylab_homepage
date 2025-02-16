@@ -1,0 +1,19 @@
+.hero {
+  @apply relative h-screen flex items-center justify-center text-center;
+}
+
+.heroContent {
+  @apply relative z-10 text-white max-w-4xl px-4;
+}
+
+.productGrid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4;
+}
+
+.productCard {
+  @apply bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105;
+}
+
+.section {
+  @apply py-20 px-4;
+} 
